@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 // Simulate a database read for tasks.
 async function getLinks() {
-  const clerkUser = await CurrentUser();
+  const clerkUser = await currentUser();
   const data = await db.secureLink.findMany({
     where: {
       userId: clerkUser?.id,
