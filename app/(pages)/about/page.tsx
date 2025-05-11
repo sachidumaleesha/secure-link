@@ -121,6 +121,7 @@ export default function AboutUs() {
                     width={200}
                     height={200}
                     className="aspect-square object-cover"
+                    priority
                   />
                 </div>
                 <div className="space-y-2 text-center">
