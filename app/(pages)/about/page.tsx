@@ -98,22 +98,25 @@ export default function AboutUs() {
                 name: "Alex Johnson",
                 role: "Founder & CEO",
                 bio: "Security expert with 15+ years in data protection and privacy solutions.",
+                link: "https://api.dicebear.com/9.x/notionists/svg?seed=Adrian",
               },
               {
                 name: "Sam Rivera",
                 role: "CTO",
                 bio: "Cryptography specialist focused on building scalable, secure systems.",
+                link: "https://api.dicebear.com/9.x/notionists/svg?seed=Brooklynn",
               },
               {
                 name: "Taylor Chen",
                 role: "Head of Product",
                 bio: "UX enthusiast dedicated to making security accessible to everyone.",
+                link: "https://api.dicebear.com/9.x/notionists/svg?seed=Mackenzie",
               },
             ].map((member, index) => (
               <div key={index} className="flex flex-col items-center space-y-4">
                 <div className="overflow-hidden rounded-full">
                   <Image
-                    src={`/placeholder.svg?height=200&width=200`}
+                    src={member.link}
                     alt={member.name}
                     width={200}
                     height={200}

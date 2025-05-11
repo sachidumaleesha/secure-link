@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
       {
         hostname: "ucarecdn.com",
       },
+      {
+        hostname: "api.dicebear.com",
+      },
     ],
   },
 };
