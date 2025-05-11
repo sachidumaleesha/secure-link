@@ -104,7 +104,7 @@ export function NavUser({ user }: { user: UserData }) {
             <DropdownMenuSeparator />
             <DropdownMenuItem className="cursor-pointer">
               <LogOut />
-              <SignOutButton><span className="cursor-pointer">Log out</span></SignOutButton>
+              <SignOutButton className="w-full">Log out</SignOutButton>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
