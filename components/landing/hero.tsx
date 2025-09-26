@@ -65,17 +65,19 @@ export default function HeroSection() {
                 </TextEffect>
 
                 <AnimatedGroup
-                  variants={{
-                    container: {
-                      visible: {
-                        transition: {
-                          staggerChildren: 0.05,
-                          delayChildren: 0.75,
+                  variants={
+                    {
+                      container: {
+                        visible: {
+                          transition: {
+                            staggerChildren: 0.05,
+                            delayChildren: 0.75,
+                          },
                         },
                       },
-                    },
-                    ...transitionVariants,
-                  }}
+                      ...transitionVariants,
+                    } as any
+                  }
                   className="z-0 mt-12 flex items-center gap-2 mx-auto justify-center"
                 >
                   <div
@@ -98,17 +100,19 @@ export default function HeroSection() {
               </div>
             </div>
             <AnimatedGroup
-              variants={{
-                container: {
-                  visible: {
-                    transition: {
-                      staggerChildren: 0.05,
-                      delayChildren: 0.75,
+              variants={
+                {
+                  container: {
+                    visible: {
+                      transition: {
+                        staggerChildren: 0.05,
+                        delayChildren: 0.75,
+                      },
                     },
                   },
-                },
-                ...transitionVariants,
-              }}
+                  ...transitionVariants,
+                } as any
+              }
             >
               <div className="relative -mr-56 mt-8 overflow-hidden px-2 sm:mr-0 sm:mt-12 md:mt-20">
                 <div

@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
-import { SecureLink } from "@/lib/generated/prisma";
+import { SecureLink } from "@/lib/generated/prisma/client";
 import { CheckCircleIcon, Eye, XCircleIcon, ZapIcon } from "lucide-react";
 
 export const columns: ColumnDef<SecureLink>[] = [

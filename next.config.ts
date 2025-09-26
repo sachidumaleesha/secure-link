@@ -2,19 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
-      {
-        hostname: "avatars.githubusercontent.com",
-      },
-      {
-        hostname: "ik.imagekit.io",
-      },
-      {
-        hostname: "ucarecdn.com",
-      },
-      {
-        hostname: "api.dicebear.com",
-      },
+    domains: [
+      'avatars.githubusercontent.com',
+      'ik.imagekit.io',
+      'ucarecdn.com',
+      'api.dicebear.com',
+      '6g1m9ensf8.ucarecd.net',
     ],
   },
 };
